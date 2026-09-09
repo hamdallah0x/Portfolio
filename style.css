@@ -118,9 +118,11 @@ textarea {
 
     inset: 0;
 
-    z-index: -100;
+    z-index: 0;
 
     overflow: hidden;
+
+    pointer-events: none;
 
     background:
 
@@ -130,6 +132,16 @@ textarea {
 
         #020202;
 
+}
+
+
+.navbar,
+.hero,
+section,
+footer,
+.top-button {
+    position: relative;
+    z-index: 1;
 }
 
 
