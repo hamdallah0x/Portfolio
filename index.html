@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Mohamed Hamdallah - Cyber Security Portfolio"
+    >
+
+    <title>Mohamed Hamdallah | Cyber Security</title>
+
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================
+         FONT AWESOME
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+            BACKGROUND
+    ===================================================== -->
+
+    <div class="background">
+
+        <div class="grid"></div>
+
+        <div class="glow glow-one"></div>
+
+        <div class="glow glow-two"></div>
+
+        <div class="glow glow-three"></div>
+
+        <div id="particles"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+            NAVIGATION
+    ===================================================== -->
+
+    <nav class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Go to Home"
+            >
+
+                MH<span>.</span>
+
+            </a>
+
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home" class="active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#certifications">
+                        Certifications
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <button
+                type="button"
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+    ===================================================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+
+            <div class="terminal-label">
+
+                <span class="terminal-dot"></span>
+
+                system.security_mode = ON
+
+            </div>
+
+
+            <!-- PROFILE IMAGE -->
+
+            <div class="profile-wrapper">
+
+                <div class="profile-ring"></div>
+
+                <div class="profile-glow"></div>
+
+
+
+                <img
+                    src="profile.jpeg"
+                    alt="Mohamed Hamdallah profile photo"
+                    class="profile-image"
+                    onerror="this.src='https://placehold.co/165x165/10040a/ffffff?text=MH'"
+                >
+
+            </div>
+
+
+            <h1>
+
+                Mohamed
+                <span>Hamdallah</span>
+
+            </h1>
+
+
+            <div class="typing">
+
+                <span id="typingText"></span>
+
+                <span class="cursor"></span>
+
+            </div>
+
+
+            <p class="hero-description">
+
+                Passionate about Cyber Security, Web Security,
+                Network Security and Penetration Testing.
+                Always learning, testing and building secure systems.
+
+            </p>
+
+
+            <!-- =================================================
+                 SOCIAL LINKS
+
+                 غير YOUR_USERNAME فقط
+            ================================================== -->
+
+            <div class="socials">
+
+
+                <!-- GITHUB -->
+
+                <a
+                    href="https://github.com/AnuShell0x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social"
+                    aria-label="GitHub"
+                >
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+
+                <!-- LINKEDIN -->
+
+                <a
+                    href="https://www.linkedin.com/in/hamdallah3x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social"
+                    aria-label="LinkedIn"
+                >
+
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                </a>
+
+
+                <!-- X -->
+
+                <a
+                    href="https://x.com/hamdallah0x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social"
+                    aria-label="X / Twitter"
+                >
+
+                    <i class="fa-brands fa-x-twitter"></i>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a
+                    href="https://www.instagram.com/hamdallah0x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social"
+                    aria-label="Instagram"
+                >
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+
+                <!-- FACEBOOK -->
+
+                <a
+                    href="https://www.facebook.com/hamdallah0x"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social"
+                    aria-label="Facebook"
+                >
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- BUTTONS -->
+
+            <div class="hero-buttons">
+
+
+                <a
+                    href="#projects"
+                    class="btn btn-primary"
+                >
+
+                    View My Work
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="btn btn-secondary"
+                >
+
+                    Contact Me
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ABOUT
+    ===================================================== -->
+
+    <section
+        class="about"
+        id="about"
+    >
+
+        <div class="section-container reveal">
+
+
+            <div class="section-title">
+
+                <span class="small">
+                    // about_me
+                </span>
+
+                <h2>
+                    Who Am I?
+                </h2>
+
+                <p>
+                    A little information about me.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+
+                <div class="about-text">
+
+                    <p>
+
+                        I'm Mohamed Hamdallah, a Cyber Security
+                        enthusiast interested in understanding
+                        how systems work, how vulnerabilities
+                        happen, and how they can be discovered
+                        and secured.
+
+                    </p>
+
+
+                    <p>
+
+                        My main interests include Web Security,
+                        Penetration Testing, Network Security,
+                        Vulnerability Assessment and Linux.
+
+                    </p>
+
+
+                    <p>
+
+                        I'm continuously developing my technical
+                        skills through practical labs, security
+                        research and hands-on projects.
+
+                    </p>
+
+                </div>
+
+
+                <div class="terminal-card">
+
+
+                    <div class="terminal-header">
+
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <div class="terminal-code">
+
+                        <div>
+
+                            <span class="red">
+                                root@portfolio
+                            </span>:~$ whoami
+
+                        </div>
+
+
+                        <div class="green">
+
+                            Mohamed Hamdallah
+
+                        </div>
+
+
+                        <br>
+
+
+                        <div>
+
+                            <span class="red">
+                                root@portfolio
+                            </span>:~$ cat interests.txt
+
+                        </div>
+
+
+                        <div>
+                            Web Security
+                        </div>
+
+
+                        <div>
+                            Penetration Testing
+                        </div>
+
+
+                        <div>
+                            Network Security
+                        </div>
+
+
+                        <div>
+                            Vulnerability Assessment
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SKILLS
+    ===================================================== -->
+
+    <section id="skills">
+
+        <div class="section-container reveal">
+
+
+            <div class="section-title">
+
+                <span class="small">
+                    // skills
+                </span>
+
+                <h2>
+                    Technical Skills
+                </h2>
+
+                <p>
+                    Technologies and security areas I'm working with.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                    </div>
+
+                    <h3>
+                        Cyber Security
+                    </h3>
+
+                    <p>
+                        Security fundamentals, threats,
+                        risks and defensive concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-user-secret"></i>
+
+                    </div>
+
+                    <h3>
+                        Penetration Testing
+                    </h3>
+
+                    <p>
+                        Ethical security testing and
+                        vulnerability discovery.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-globe"></i>
+
+                    </div>
+
+                    <h3>
+                        Web Security
+                    </h3>
+
+                    <p>
+                        Understanding common web
+                        vulnerabilities and application security.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-network-wired"></i>
+
+                    </div>
+
+                    <h3>
+                        Network Security
+                    </h3>
+
+                    <p>
+                        Networking fundamentals and
+                        network security concepts.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-brands fa-linux"></i>
+
+                    </div>
+
+                    <h3>
+                        Linux
+                    </h3>
+
+                    <p>
+                        Linux command line, administration
+                        and security environments.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-code"></i>
+
+                    </div>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        Python fundamentals and
+                        security automation.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-bug"></i>
+
+                    </div>
+
+                    <h3>
+                        Vulnerability Assessment
+                    </h3>
+
+                    <p>
+                        Identifying and understanding
+                        potential security weaknesses.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+
+                        <i class="fa-solid fa-terminal"></i>
+
+                    </div>
+
+                    <h3>
+                        Networking
+                    </h3>
+
+                    <p>
+                        TCP/IP, protocols, ports,
+                        DNS and network fundamentals.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- =====================================================
+         CONTACT
+    ===================================================== -->
+
+    <section
+        class="contact"
+        id="contact"
+    >
+
+        <div class="section-container reveal">
+
+
+            <div class="section-title">
+
+                <span class="small">
+                    // contact
+                </span>
+
+                <h2>
+                    Let's Connect
+                </h2>
+
+                <p>
+                    Have a project or want to get in touch?
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <!-- CONTACT INFO -->
+
+                <div class="contact-info">
+
+                    <h3>
+                        Contact Information
+                    </h3>
+
+
+                    <p>
+
+                        You can contact me through the following
+                        platforms or send a message using the form.
+
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span>
+                            anubis193x@gmail.com
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        <span>
+                            github.com/AnuShell0x
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        <span>
+                            linkedin.com/in/hamdallah3x
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+
+                <form
+                    class="contact-form"
+                    id="contactForm"
+                    novalidate
+                >
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="your@email.com"
+                            >
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Write your message..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+
+                        Send Message
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+
+                    <div
+                        class="form-message"
+                        id="formMessage"
+                        role="alert"
+                    ></div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer>
+
+
+        <h3>
+
+            Mohamed
+
+            <span style="color:#a51c4c;">
+                Hamdallah
+            </span>
+
+        </h3>
+
+
+        <p>
+            Think Secure. Build Secure.
+        </p>
+
+
+        <div class="footer-socials">
+
+
+            <a
+                href="https://github.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+            >
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+
+            <a
+                href="https://www.linkedin.com/in/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+            >
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+
+            <a
+                href="https://x.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X / Twitter"
+            >
+
+                <i class="fa-brands fa-x-twitter"></i>
+
+            </a>
+
+
+            <a
+                href="https://www.instagram.com/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+            >
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </a>
+
+
+            <a
+                href="https://www.facebook.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+            >
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+            </a>
+
+
+        </div>
+
+
+        <p>
+            © 2026 Mohamed Hamdallah. All Rights Reserved.
+        </p>
+
+
+    </footer>
+
+
+    <!-- =====================================================
+         BACK TO TOP
+    ===================================================== -->
+
+    <button
+        type="button"
+        class="top-button"
+        id="topButton"
+        aria-label="Back to top"
+    >
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ===================================================== -->
+    <script src="script.js"></script>
+</body>
+
+</html>
